@@ -1,7 +1,7 @@
 
 
 :root{
-    ---bs-blue:#037bc0;
+    ---bs-blue:#516579;
 }
 
 html{
@@ -23,12 +23,28 @@ h1{
 h1 span{
     color: var();
 }
+h2{
+    font-size: 3.2rem;
+}
 
 
+/* hero */
 .hero{
     background-image: url(https://www.ixina.cl/fileadmin/export/banner/CALIDAD-DISENO-Y-EXPERENCIA-EN-MAS-DE-25-PAISES.jpg);
     height: 54vh;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+/* main */
+
+.bg-primary{
+    background-color: var(---bs-blue)!important;
+}
+
+.producto img{
+    height: 37rem;
+    width: 100%;
+    object-fit: cover;
 }
