@@ -1,0 +1,34 @@
+
+
+:root{
+    ---bs-blue:#037bc0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem; /* 1 rem = 10px */
+    line-height: 2;
+}
+
+h1,h2,h3{
+    font-family: serif;
+}
+h1{
+    font-size: 3.8rem;
+}
+
+h1 span{
+    color: var();
+}
+
+
+.hero{
+    background-image: url(https://www.ixina.cl/fileadmin/export/banner/CALIDAD-DISENO-Y-EXPERENCIA-EN-MAS-DE-25-PAISES.jpg);
+    height: 54vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
