@@ -11,6 +11,7 @@ html{
 body{
     font-size: 1.6rem; /* 1 rem = 10px */
     line-height: 2;
+    background-color: #bcc0c4;
 }
 
 h1,h2,h3{
@@ -47,4 +48,14 @@ h2{
     height: 37rem;
     width: 100%;
     object-fit: cover;
+}
+
+.categoria img{
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+/* categoria */
+.categoria img:hover{
+ cursor: pointer;
+ transform:  scale(1.2);/*crece 20 % */
 }
