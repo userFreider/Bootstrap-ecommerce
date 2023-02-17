@@ -62,3 +62,14 @@ h2{
  cursor: pointer;
  transform:  scale(1.2);/*crece 20 % */
 }
+
+
+
+/*galeria*/
+.galeria li{
+    margin-bottom: 1rem;
+}
+
+.galeria li:last-of-type{
+    margin-bottom: 0;
+}
